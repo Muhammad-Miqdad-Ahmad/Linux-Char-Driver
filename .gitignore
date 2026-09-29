@@ -1,0 +1,11 @@
+build/
+modules/
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+Module.symvers
+modules.order
+compile_commands.json
+.vscode/

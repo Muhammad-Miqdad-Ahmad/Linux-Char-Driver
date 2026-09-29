@@ -1,0 +1,4 @@
+obj-m := heavy_module.o
+heavy_module-y := main.o dev.o proc.o
+
+ccflags-y := -I$(INC_DIR)
